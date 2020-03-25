@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto
+}
+.index{
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.index img{
+    justify-self: center;
+}
+.index p{
+    justify-self: center;
+    color: rgb(70, 70, 70);
+    font-weight: 600;
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+}
+.index a{
+    text-decoration: none;
+}
+
+footer{
+    background-image: linear-gradient(to left, rgb(70,70,70), indianred, rgb(70,70,70), indianred, rgb(70,70,70), indianred, rgb(70,70,70), indianred);
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+footer span{
+    font-weight: 500;
+    padding: 0 0 0 5%;
+    font-size: 0.8em;
+}
